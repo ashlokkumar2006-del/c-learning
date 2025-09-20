@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+    int n;
+    printf("press one if you want to add two numbers \n");	
+    scanf("%d",&n);
+    printf(" press two if you want to subtract two numbers \n");
+    scanf("%d",&n);
+    printf(" press three if you want to multiply two numbers \n");
+    scanf("%d",&n);
+    printf(" press four if you want to divide two numbers \n");
+    scanf("%d",&n);
+    int a,b;
+    printf("enter two numbers \n");
+    scanf("%d %d",&a,&b);
+    switch(n){
+        case 1:
+        printf("%d + %d= %d \n",a,b,a+b);
+        break;
+        case 2:
+        printf("%d - %d= %d \n",a,b,a-b);
+        break;
+        printf("%d * %d= %d \n",a,b,a*b);
+        break;
+        case 3:
+        printf("%d / %d= %d \n",a,b,a/b);
+        break;      
+
+    return 0;
+}
